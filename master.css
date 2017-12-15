@@ -102,9 +102,19 @@ li {
     padding: 5vh 5vw;
 }
 
-#introduction img {
-    max-width: 80vw;
+#img-div {
+    max-width: 100%;
     height: auto;
+}
+
+#introduction img {
+  display: block;
+    max-width: 100%;
+}
+}
+
+#introduction img {
+    width: 100%;
 }
 
 #noborder {
