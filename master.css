@@ -1,0 +1,157 @@
+body {
+    margin: 1vh 1vw;
+}
+
+#introduction {
+    background-color: #B97CAC;
+}
+
+#timeline {
+    background-color: #9277AC;
+}
+
+#awards {
+    background-color: #8080B3;
+}
+
+#current {
+    background-color: #E0F3A2;
+}
+
+#quotes {
+    background-color: #FFFAAA;
+}
+
+section {
+    margin: 1vh 1vw;
+}
+
+header {
+    min-height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 1vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: grey ;
+    border: 1 px solid white;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav a:hover, nav a:focus {
+    background-color: white;
+    color: black;
+    transform: scale(1.03);
+}
+
+h1, h2 {
+    font-family: Space Mono, cursive;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 1vh;
+}
+
+
+.wrapper {
+    max-width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1vh;
+}
+
+#introduction h1 {
+    max-width: 400px;
+}
+
+#introduction p {
+    font-size: 1.5rem;
+    padding: 5vh 5vw;
+}
+
+#introduction img {
+    max-width: 80vw;
+    height: auto;
+}
+
+#noborder {
+    border: 0;
+    padding: 5vh 5vw;
+}
+
+#quotes ul {
+    list-style: none;
+    transform: translateX(-2vw);
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 1vh 1vw;
+    min-height: 4vh;
+}
+
+footer a {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        font-size: 1rem;
+    }
+}
